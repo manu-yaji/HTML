@@ -1,0 +1,54 @@
+#car{
+    top: 50px;
+    z-index: 2;
+    position: absolute;
+    width: 400px;
+}
+.tyre1{
+    z-index: 3;
+    position: absolute;
+    top: 110px;
+    left:315px;
+    width: 73px;
+    animation: 1s infinite linear slidein; 
+}
+.tyre2{
+    z-index: 3;
+    position: absolute;
+    top: 110px;
+    left: 48px;
+    width: 73px;
+    animation: 1s infinite linear slidein;
+}
+#cloud{
+    top: -30px;
+    z-index: 0;
+    position: absolute;
+    width: 200px;
+    left: 50px;
+}
+div{
+    background-color: aqua;
+}
+@keyframes slidein{
+    from{
+        transform:rotate(0deg);    
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
+#street{
+    position: absolute;
+    background-color:rgb(43, 39, 39);
+    width: 100%;
+    height: 80px;
+    top: 130px;
+}
+body{
+    position: absolute;
+    background-color:skyblue;
+    top: 100px;
+    width:100%;
+    height:100%;
+}

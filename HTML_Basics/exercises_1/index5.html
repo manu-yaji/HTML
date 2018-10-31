@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <style>
+        table,td,th,tr {
+              border:solid 2px black;  
+              
+        }
+        /* tr:nth-child(odd){
+            color:chartreuse;   
+        } */
+    </style>
+</head>
+
+<body>
+    <table frame="box" align="center" height="200" width="200" bgcolor="chocolate" cellpadding="5" cellspacing="10">
+    <!--Change width and height-->    
+        <caption align="top">Fill the details</caption> 
+        <form name="myform" onsubmit="add(event)">
+        <tr>
+            <th>Name:</th>
+            <td><input type="text" placeholder="Name" id="name"></td>
+        </tr>
+        <tr>
+                <th>Name:</th>
+                <td><input type="text" id="phno" placeholder="Phone No" pattern="[0-9]{10}"></td>
+        </tr>
+        <tr>
+            <th>Place:</th>
+            <td><input type="text" id="place" placeholder="Place"></td>
+        </tr>
+        <tr>
+            <td>
+                <center><button type="submit">Add Contact</button></center>
+            </td>
+            <td>
+                <center><button type="reset">Reset Details</button></center>
+            </td>
+        </tr>
+       </form> 
+    </table>
+    <script src="index4.js"></script>
+</body>
+
+</html>

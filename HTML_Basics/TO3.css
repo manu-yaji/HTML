@@ -1,0 +1,35 @@
+.left{
+    left: 0;
+    background-color: aqua;
+    height: 100%;
+    width:30%;
+    
+}
+.right{
+    right: 0;
+    background-color: bisque;
+    height: 100%;
+    width:70%;
+    text-align: center;
+}
+.split{
+    position: fixed;
+    
+}
+#div1{
+    text-align: center;
+    background-color:cornflowerblue;
+    margin: 0;
+}
+ul>li{
+    color: red;
+    font-weight: bold;
+}
+ol{
+    font-family: Helvetica;
+    color: sienna;
+}
+h1{
+    background-color: chocolate;
+    margin: 0;
+}
